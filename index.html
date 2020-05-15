@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Personal Portfolio - Model II</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Miranda" />
+    <meta name="description" content="Hello, my name is Lorem Ipsum and this is my portfolio!" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="container navbar">
+        <header>
+            <div class="logo">
+                <h1><a href="#"></a>LOGO</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about" accesskey="a">About me</a></li>
+                    <li><a href="#skills" accesskey="s">Skills</a></li>
+                    <li><a href="#work" accesskey="w">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">L</span>
+                <span class="m-left name">o</span>
+                <span class="m-left name">r</span>
+                <span class="m-left name">e</span>
+                <span class="m-left name">m</span>
+                <span class="m-left name">m</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">s</span>
+                <span class="m-left">i</span>
+                <span class="m-left">g</span>
+                <span class="m-left">n</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+            </h1>
+
+            <p>CSS /JavaScript / React</p>
+            <a href="#contact">Contact Me</a>
+        </div>
+        <div class="profile-image">
+            <img src="/assets/profile-pic.png" alt="">
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="container about" id="about">
+        <h1 class="title-theme">About</h1>
+        <div class="about-me-info">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quasi magnam doloremque quos ad quae,
+                quam officia quod autem pariatur nihil voluptatum architecto soluta! Similique aliquid aperiam
+                perspiciatis eos odio.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quasi magnam doloremque quos ad quae,
+                quam officia quod autem pariatur nihil voluptatum architecto soluta! Similique aliquid aperiam
+                perspiciatis eos odio.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quasi magnam doloremque quos ad quae,
+                quam officia quod autem pariatur nihil voluptatum architecto soluta! Similique aliquid aperiam
+                perspiciatis eos odio.</p>
+        </div>
+        <img src="assets/dotted-shape.png" alt="">
+    </div>
+
+    <!-- SKILLS -->
+    <div class="container skills" id="skills">
+        <h1 class="title-theme">Skills</h1>
+        <p class="skills-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sit eaque nisi ad quas
+            corporis a reiciendis tempore nesciunt nam temporibus sapiente, eveniet harum voluptatem, blanditiis soluta
+            illum maxime ipsa.</p>
+        <div class="html">
+            <div class="tag-html">
+                <p>SKILL I</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-css">
+                <p>SKILL II</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-css"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-javascript">
+                <p>SKILL III</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-javascript"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-react">
+                <p>SKILL IV</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-react"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WORK -->
+    <div class="container work" id="work">
+        <h1 class="title-theme">Work</h1>
+        <div class="work-category">
+            <button id="designing" onclick="showRequiredCategory(this)" class="active">Web Desigining</button>
+            <button id="animation" onclick="showRequiredCategory(this)">Web Animation</button>
+            <button id="project" onclick="showRequiredCategory(this)">Web Animation</button>
+        </div>
+
+        <div class="category-designing showCategory">
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+        </div>
+        <div class="category-animation hidenCategory">
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+
+        </div>
+        <div class="category-project hidenCategory">
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+            <a href=""><img src="assets/1.png" alt=""></a>
+
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="container contact" id="contact">
+        <h1 class="title-theme">Contact</h1>
+        <form (ngSubmit)="onSubmit()" #form="ngForm">
+            <input type="text" name="name" placeholder="Your name">
+            <input type="email" placeholder="Email">
+            <textarea name="message" placeholder="Message" cols="30" rows="10"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>2019 Copyright. All right Reserved</p>
+    </footer>
+
+</body>
+
+</html>
